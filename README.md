@@ -2,8 +2,6 @@
 
 This project implements a full‑stack authentication application that includes basic, advanced, and optional challenging features. The client is built with React and served via Nginx on port 80, the server uses Node.js with Express on port 4000, and MongoDB (running on port 27017) is used for data storage. All components are containerized using Docker and orchestrated with Docker Compose.
 
----
-
 ## Table of Contents
 
 - [Features](#features)
@@ -11,8 +9,6 @@ This project implements a full‑stack authentication application that includes 
 - [Docker Setup and Deployment](#docker-setup-and-deployment)
 - [Getting Started](#getting-started)
 - [Acknowledgements](#acknowledgements)
-
----
 
 ## Features
 
@@ -97,16 +93,12 @@ This project implements a full‑stack authentication application that includes 
       <p  style="color: blue;">Get notified when a new user registers</p>
   </div>
 
----
-
 ## Tech Stack
 
 - **Client:** ReactJS, served with Nginx on port 80.
 - **Server:** Node.js with Express, running on port 4000.
 - **Database:** MongoDB, running on port 27017.
 - **Containerization:** Docker and Docker Compose.
-
----
 
 ## Docker Setup and Deployment
 
@@ -117,8 +109,6 @@ This application is containerized using Docker and Docker Compose. The setup inc
 - **Client:** The React application is built and then served via Nginx. The Nginx configuration uses a custom configuration file (`default.conf`) to support client-side routing (using the `try_files` directive).
 
 To deploy the application, use the provided Docker Compose configuration (refer to the `docker-compose.yml` file in the repository).
-
----
 
 ## Getting Started
 
@@ -154,8 +144,6 @@ To deploy the application, use the provided Docker Compose configuration (refer 
 4. **Access the Application:**
    - **Client:** Open your browser and navigate to [http://localhost](http://localhost).
    - **Server API:** Accessible at [http://localhost:4000](http://localhost:4000).
-
----
 
 ## Acknowledgements
 
